@@ -10,6 +10,8 @@ pip install meson
 mkdir $FOLDER
 git clone https://github.com/GStreamer/gst-build.git $FOLDER
 cd $FOLDER
+git tag -l
+git checkout <tag-name>
 mkdir build
 meson -Denable_python=true build
 cd build
