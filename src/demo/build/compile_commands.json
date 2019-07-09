@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/ignitarium/Workspace/Trails/Build_File_Systems/gs_jul_9/demo/build",
+    "command": "cc -Imb_gst_demo@exe -I. -I.. -I/home/ignitarium/gst/1.14/gstreamer -I/home/ignitarium/gst/1.14/gstreamer/libs -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -MD -MQ 'mb_gst_demo@exe/demo.c.o' -MF 'mb_gst_demo@exe/demo.c.o.d' -o 'mb_gst_demo@exe/demo.c.o' -c ../demo.c",
+    "file": "../demo.c"
+  }
+]
