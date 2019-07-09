@@ -1,13 +1,50 @@
-## Running Script setup_gstream_build.sh
-Not Building
 
-## using ninja -C build git-update
-### ERROR
-[71/4943] Generating gstmpegts-enumtypes.h with a meson_exe.py custom command.
-ninja: build stopped: subcommand failed.
 
-## Deleted build dir and rebuilding using meson build
-ERROR
+
+# 9_Jul
+## TASK_1_Begin 
+### Sub_T1 Installed an uninstalled version 
+> from https://github.com/abelvdavid/gst_autotool_build using autotool build system 
+### Sub_T2 Added a simple demo project 
+> from https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html?gi-language=c using meson build system (avilable at the src dir)
+## TASK_1_Conclusion 
++ It is working
+
+## TASK_2_Begin
+
+
+___________________________________________________________________________________
+_______________________________________________________________________________________
+### 4Jul Installing from other site
+#Site Details
+http://www.linuxfromscratch.org/blfs/view/8.4/multimedia/gstreamer10.html
+#After Downloading
+./configure --prefix=/usr \
+            --with-package-name="GStreamer 1.14.4 BLFS" \
+            --with-package-origin="http://www.linuxfromscratch.org/blfs/view/svn/" &&
+make
+
+
+
+### Editing meson build file
+"""
+#if not get_option('disable_gst_plugins_ugly')
+#    subprojects += ['gst-plugins-ugly']
+#endif
+
+#if not get_option('disable_gst_plugins_bad')
+#    subprojects += ['gst-plugins-bad']
+#endif
+"""
+-> The Edit is working.
+-> Now what about plugin ?? NOT WORKING
+
+
+## Jul 01 < Building tag 1.14.0 instead of MASTER
+### Build Command Used
+meson build/
+ninja -C build/
+meson install -C build/ 
 
 ## Build from scratch
 
@@ -24,34 +61,23 @@ In file included from /usr/include/libpng12/png.h:321:0,
                              ^
 /usr/include/libpng12/pngconf.h:384:29: error: unknown type name 'it'
 
-## Jul 01 < Building tag 1.14.0 instead of MASTER
-### Build Command Used
-meson build/
-ninja -C build/
-meson install -C build/ 
+## using ninja -C build git-update
+### ERROR
+[71/4943] Generating gstmpegts-enumtypes.h with a meson_exe.py custom command.
+ninja: build stopped: subcommand failed.
 
 
-### Editing meson build file
-"""
-#if not get_option('disable_gst_plugins_ugly')
-#    subprojects += ['gst-plugins-ugly']
-#endif
+## Deleted build dir and rebuilding using meson build
+ERROR
 
-#if not get_option('disable_gst_plugins_bad')
-#    subprojects += ['gst-plugins-bad']
-#endif
-"""
--> The Edit is working.
--> Now what about plugin ?? NOT WORKING
+## Running Script setup_gstream_build.sh
+Not Building
 
-### 4Jul Installing from other site
-#Site Details
-http://www.linuxfromscratch.org/blfs/view/8.4/multimedia/gstreamer10.html
-#After Downloading
-./configure --prefix=/usr \
-            --with-package-name="GStreamer 1.14.4 BLFS" \
-            --with-package-origin="http://www.linuxfromscratch.org/blfs/view/svn/" &&
-make
+
+
+
+
+
 
 # Reference Links 
 
