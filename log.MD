@@ -1,22 +1,38 @@
 
 
-
-# 9_Jul
-## TASK_1_Begin 
-### Sub_T1 Installed an uninstalled version 
-> from https://github.com/abelvdavid/gst_autotool_build using autotool build system 
-### Sub_T2 Added a simple demo project 
-> from https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html?gi-language=c using meson build system (avilable at the src dir)
-## TASK_1_Conclusion 
+------------------------------------------------
+------------------------------------------------
+# 9_Jul_End
+____________________________________________________
+## T3_Conclusion 
 + It is working
 
-## TASK_2_Begin
-### Sub_T1 Multiple dependencies
+### T3_S2 Understanding the meson build file definition
+> Finding out library directories
+
+### T3_S1 Plugin using meson build
+> sample download 
+
+## T3_Begin
+_______________________________________________
+## T2_Conclusion 
++ It is working
+
+### T2_S1 Multiple dependencies
 > editing meson file
-## TASK_2_Conclusion 
-+ It is working
 
-___________________________________________________________________________________
+## T2_Begin
+_________________________________________________
+## T1_Conclusion 
++ It is working
+### T1_S2 Added a simple demo project 
+> from https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html?gi-language=c using meson build system (avilable at the src dir)
+### T1_S1 Installed an uninstalled version 
+> from https://github.com/abelvdavid/gst_autotool_build using autotool build system 
+## T1_Begin
+-----------------------------------------------
+# 9_Jul_Begin
+-----------------------------------------------
 _______________________________________________________________________________________
 ### 4Jul Installing from other site
 #Site Details
