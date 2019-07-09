@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/ignitarium/Workspace/Trails/Build_File_Systems/gs_jul_9/gui_1/build",
+    "command": "cc -Imb_gst_gui_1@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircore -I/usr/include/mircookie -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/ignitarium/gst/1.14/gstreamer -I/home/ignitarium/gst/1.14/gstreamer/libs -I/home/ignitarium/gst/1.14/gst-plugins-base/gst-libs -I/usr/include/orc-0.4 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -MD -MQ 'mb_gst_gui_1@exe/gui_1.c.o' -MF 'mb_gst_gui_1@exe/gui_1.c.o.d' -o 'mb_gst_gui_1@exe/gui_1.c.o' -c ../gui_1.c",
+    "file": "../gui_1.c"
+  }
+]

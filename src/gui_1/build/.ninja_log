@@ -1,3 +1,5 @@
 # ninja log v5
 0	2144	0	mb_gst_gui@exe/gui.c.o	9e9589aca6fd7116
 2147	2489	0	mb_gst_gui	4274b3bd4a2a182
+0	290	0	mb_gst_gui_1@exe/gui_1.c.o	8c54c16b94b1c6ee
+291	468	0	mb_gst_gui_1	85475d7fb16bfb6a
