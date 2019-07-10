@@ -4,8 +4,9 @@
 ------------------------------------------------
 # 9_Jul_End
 ____________________________________________________
-## T3_Conclusion 
-+ It is working
+## T3_Conclusion_Pre 
++ Completed till rootdirectory meson build file. Needed to move into subdir meson.build files.
++ Need to know if the plugin that we are building is library or a executable 
 
 ### T3_S2 Understanding the meson build file definition
 > Finding out library directories
